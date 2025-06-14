@@ -48,7 +48,7 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
 </p>
 <p>
-From the start menu, open control panel and click on "uninstall or change a program". Next, click "turn windows features on or off". Check Internet Information Services followed by expanding the folder to also check CGI. This must be enabled for IIS to work properly. 
+From the start menu, open control panel and click on "uninstall or change a program". Next, click "turn windows features on or off". Check Internet Information Services followed by expanding the folder to also check CGI. This is important to ensure that the web server is properly installed. 
 </p>
 <br />
 
