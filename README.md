@@ -30,13 +30,15 @@ World Wide Web Services -> Application Development Features -> enable CGI
 
 - Install the Web Server (PHP Manager) Within the “osTicket-Installation-Files” folder, install PHP Manager for Internet Information Services (IIS) (PHPManagerForIIS_V1.5.0.msi)
 
-- Install the Database from the “osTicket-Installation-Files” folder, MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) and HeidiSQL to create the database. Rename to osTicket.  
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
 Set credentals 
 
-- Item 5
+- Install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
 <h2>Installation Steps</h2>
 
