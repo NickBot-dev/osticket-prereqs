@@ -70,7 +70,7 @@ From the start menu, open control panel and click on "uninstall or change a prog
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+MySQL is an open-source relational database management system (RDBMS). It's used to store, retrieve, and manage data in structured formats using SQL (Structured Query Language).  
 </p>
 <br />
 
