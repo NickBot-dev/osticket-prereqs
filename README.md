@@ -48,15 +48,17 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
 </p>
 <p>
-From the start menu, open control panel and click on "uninstall or change a program". Next, click "turn windows features on or off". Check Internet Information Services followed by expanding the folder to also check CGI. This is important to ensure that the web server is properly installed. 
+From the start menu, open control panel and click on "uninstall or change a program". Next, click "turn Windows features on or off". Check Internet Information Services followed by expanding the folder to also check CGI. This is important to ensure that the web server is properly installed. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![image](https://github.com/user-attachments/assets/bfd7ff86-3571-4065-8b2b-3dfb87dd681f)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ PHP Manager is a tool used for managing PHP installations on a Windows server. PHP Manager is enabled through Internet Information Services, and is a requirement for osTicket to work. 
 </p>
 <br />
 
