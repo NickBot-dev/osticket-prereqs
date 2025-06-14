@@ -22,7 +22,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
+- Within the virtual machine, download the osTicket-Installation-Files.zip and unzip it onto the desktop. The folder should be called “osTicket-Installation-Files.”
+ The files in this folder are used to install osTicket and some of the dependencies.
+
 - Item 2
 - Item 3
 - Item 4
