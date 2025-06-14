@@ -103,12 +103,13 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket." This ensur
 
 <p>
 
- ![image](https://github.com/user-attachments/assets/a79a4808-c7c6-4237-9732-115db357d10c)
+![image](https://github.com/user-attachments/assets/3485f7bb-1aa4-4e62-a993-4f88ff96b489)
+
 
 </p>
 <p>
-From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip”. A new folder will appear named upload. Copy the “upload” folder into “c:\inetpub\wwwroot”
-Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket." This ensures that osTicket is successfully installed on the computer. 
+
+HeidiSQL is an application that is required for allowing us to make a connection to the database and perform configurations.  
 
 </p>
 <br />
