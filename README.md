@@ -30,7 +30,12 @@ World Wide Web Services -> Application Development Features -> enable CGI
 
 - Install web server (PHP Manager) Within the “osTicket-Installation-Files” folder, install PHP Manager for Internet Information Services (IIS) (PHPManagerForIIS_V1.5.0.msi)
 
-- Item 4
+- Install Database from the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Set credentals 
+
 - Item 5
 
 <h2>Installation Steps</h2>
