@@ -28,9 +28,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install / Enable Internet Information Services (IIS) in Windows, along with CGI
 World Wide Web Services -> Application Development Features -> enable CGI
 
-- Install web server (PHP Manager) Within the “osTicket-Installation-Files” folder, install PHP Manager for Internet Information Services (IIS) (PHPManagerForIIS_V1.5.0.msi)
+- Install the Web Server (PHP Manager) Within the “osTicket-Installation-Files” folder, install PHP Manager for Internet Information Services (IIS) (PHPManagerForIIS_V1.5.0.msi)
 
-- Install Database from the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- Install the Database from the “osTicket-Installation-Files” folder, MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
