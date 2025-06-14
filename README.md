@@ -28,7 +28,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install / Enable Internet Information Services (IIS) in Windows, along with CGI
 World Wide Web Services -> Application Development Features -> enable CGI
 
-- Item 3
+- Install web server (PHP Manager) Within the “osTicket-Installation-Files” folder, install PHP Manager for Internet Information Services (IIS) (PHPManagerForIIS_V1.5.0.msi)
+
 - Item 4
 - Item 5
 
