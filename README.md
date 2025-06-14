@@ -83,7 +83,7 @@ MySQL is an open-source relational database management system (RDBMS). It's used
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Registering PHP Manager from within IIS is required for making the web server aware of the existence of PHP on the computer
 </p>
 <br />
 
