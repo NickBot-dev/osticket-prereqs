@@ -120,7 +120,7 @@ HeidiSQL is an application that is required for allowing us to make a connection
 </p>
 <p>
 
-We started a new session from within HeidiSQL to establish a connection to the database and renamed it to osTicket. 
+Start a new session from within HeidiSQL in order to establish a connection to the database and rename it osTicket. 
   
 </p>
 <br />
