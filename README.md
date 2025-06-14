@@ -98,3 +98,16 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket." This ensur
 
 </p>
 <br />
+
+<p>
+
+ ![image](https://github.com/user-attachments/assets/a79a4808-c7c6-4237-9732-115db357d10c)
+
+</p>
+<p>
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip”. A new folder will appear named upload. Copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket." This ensures that osTicket is successfully installed on the computer. 
+
+</p>
+<br />
+
