@@ -28,7 +28,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install / Enable Internet Information Services (IIS) in Windows, along with CGI
 World Wide Web Services -> Application Development Features -> enable CGI
 
-- Install the Web Server (PHP Manager) Within the “osTicket-Installation-Files” folder, install PHP Manager for Internet Information Services (IIS) (PHPManagerForIIS_V1.5.0.msi)
+- Install the Web Server (PHP Manager) from within the “osTicket-Installation-Files” folder (PHPManagerForIIS_V1.5.0.msi). Followed by installing the Rewrite Module (rewrite_amd64_en-US.msi)
+ 
 
 - From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) and HeidiSQL to create the database. Rename to osTicket.  
 Typical Setup ->
@@ -58,7 +59,8 @@ From the start menu, open control panel and click on "uninstall or change a prog
 
 </p>
 <p>
- PHP Manager is a tool used for managing PHP installations on a Windows server. PHP Manager is enabled through Internet Information Services, and is a requirement for osTicket to work. 
+ PHP Manager is a tool used for managing PHP installations on a Windows server, particularly with Internet Information Services (IIS). PHP Manager helps administrators manage multiple PHP versions and configure various PHP settings without manually editing configuration files or performing complex command-line operations. The Rewrite Module (rewrite_amd64_en-US.msi) is a dependency for installation. 
+
 </p>
 <br />
 
