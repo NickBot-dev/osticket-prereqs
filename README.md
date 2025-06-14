@@ -25,7 +25,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Within the virtual machine, download the osTicket-Installation-Files.zip and unzip it onto the desktop. The folder should be called “osTicket-Installation-Files.”
  The files in this folder are used to install osTicket and some of the dependencies.
 
-- Item 2
+- Install / Enable Internet Information Services (IIS) in Windows, along with CGI
+World Wide Web Services -> Application Development Features -> enable CGI
+
 - Item 3
 - Item 4
 - Item 5
