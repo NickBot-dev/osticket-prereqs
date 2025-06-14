@@ -43,6 +43,8 @@ Set credentals
 From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
 Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
+- Install HeidiSQL for database configuration
+
 <h2>Installation Steps</h2>
 
 <p>
