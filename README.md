@@ -63,7 +63,7 @@ From the start menu, open control panel and click on "uninstall or change a prog
 
 </p>
 <p>
- PHP Manager is a tool used for managing PHP installations on a Windows server, particularly with Internet Information Services (IIS). PHP Manager helps administrators manage multiple PHP versions and configure various PHP settings without manually editing configuration files or performing complex command-line operations. The Rewrite Module (rewrite_amd64_en-US.msi) is a dependency for installation followed by creating the new PHP folder on the C drive and extracting all PHP files into the new folder to unsure osTicket is properly configured. 
+ PHP Manager is a tool used for managing PHP installations on a Windows server, particularly with Internet Information Services (IIS). PHP Manager helps administrators manage multiple PHP versions and configure various PHP settings without manually editing configuration files or performing complex command-line operations. The Rewrite Module (rewrite_amd64_en-US.msi) is a dependency for installation followed by creating the new PHP folder on the C drive and extracting all PHP files into the new folder to ensure osTicket is properly configured. 
 
 </p>
 <br />
