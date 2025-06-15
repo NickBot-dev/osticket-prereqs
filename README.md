@@ -115,6 +115,20 @@ HeidiSQL is an application that is required for allowing us to make a connection
 
 <p>
 
+<p>
+
+![image](https://github.com/user-attachments/assets/3485f7bb-1aa4-4e62-a993-4f88ff96b489)
+
+</p>
+<p>
+
+HeidiSQL is an application that is required for allowing us to make a connection to the database and perform configurations.  
+
+</p>
+<br />
+
+<p>
+
 ![image](https://github.com/user-attachments/assets/2f8f2683-5199-41a7-8443-592b12f6b87d)
 
 </p>
