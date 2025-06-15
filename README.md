@@ -142,3 +142,17 @@ Start a new session from within HeidiSQL in order to establish a connection to t
 <br />
 
 <p>
+
+<p>
+
+![sc5](https://github.com/user-attachments/assets/79bdbc68-dab7-42f6-a237-24949c807afd)
+
+</p>
+<p>
+
+osTicket has been successfully installed! 
+  
+</p>
+<br />
+
+<p>
