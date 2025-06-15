@@ -103,12 +103,14 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket." This ensur
 
 <p>
 
-![image](https://github.com/user-attachments/assets/3485f7bb-1aa4-4e62-a993-4f88ff96b489)
+![image](https://github.com/user-attachments/assets/ab35a793-8626-44e4-b050-dab275a83014)
+
 
 </p>
 <p>
 
-HeidiSQL is an application that is required for allowing us to make a connection to the database and perform configurations.  
+Note that not all extensions are enabled. For osTicket to work properly, we must enable the following extensions... php_imap.dll, php_intl.dll, and php_opcache.dll. This can be done through PHP Manager from within Internet Information Services (IIS)
+  
 
 </p>
 <br />
