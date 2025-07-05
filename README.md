@@ -12,8 +12,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Azure Virtual Machine
+- Remote Desktop Connection
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install / Enable Internet Information Services (IIS) in Windows, along with CGI
 World Wide Web Services -> Application Development Features -> enable CGI
 
-- Install the Web Server (PHP Manager) from within the “osTicket-Installation-Files” folder (PHPManagerForIIS_V1.5.0.msi). Followed by installing the Rewrite Module (rewrite_amd64_en-US.msi). Create a new folder on the C drive and rename it PHP. Extract all PHP files into to the new PHP folder on the C drive.
+- Install the Web Server (PHP Manager) from within the “osTicket-Installation-Files” folder (PHPManagerForIIS_V1.5.0.msi). Followed by installing the Rewrite Module (rewrite_amd64_en-US.msi). Create a new folder on the C drive and rename it PHP. Extract all PHP files into to the new PHP folder onto the C drive.
  
 
 - From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) and HeidiSQL to create the database. Rename to osTicket.  
@@ -37,7 +37,7 @@ Launch Configuration Wizard (after install) ->
 Standard Configuration ->
 Set credentals 
 
-- Open IIS as an Admin... Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe). Reload IIS (Open IIS, Stop and Start the server)
+- Open IIS as an Administrator... Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe). Reload IIS (Open IIS, Stop and Start the server)
 
 - Install osTicket v1.15.8
 From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
@@ -53,7 +53,7 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
 </p>
 <p>
-From the start menu, open control panel and click on "uninstall or change a program". Next, click "turn Windows features on or off". Check Internet Information Services followed by expanding the folder to also check CGI. This is important to ensure that the web server is properly installed. 
+From the start menu, open control panel and click on "uninstall or change a program". Next, click "turn Windows features on or off". Check Internet Information Services followed by expanding the folder to also check CGI. This feature is important to ensure that the web server is properly installed. 
 </p>
 <br />
 
@@ -63,7 +63,7 @@ From the start menu, open control panel and click on "uninstall or change a prog
 
 </p>
 <p>
- PHP Manager is a tool used for managing PHP installations on a Windows server, particularly with Internet Information Services (IIS). PHP Manager helps administrators manage multiple PHP versions and configure various PHP settings without manually editing configuration files or performing complex command-line operations. The Rewrite Module (rewrite_amd64_en-US.msi) is a dependency for installation followed by creating the new PHP folder on the C drive and extracting all PHP files into the new folder to ensure osTicket is properly configured. 
+ PHP Manager is a tool used for managing PHP installations on a Windows server, particularly with Internet Information Services (IIS). PHP Manager helps administrators manage multiple PHP versions and configure various PHP settings without manually editing configuration files or performing complex command-line operations. The Rewrite Module (rewrite_amd64_en-US.msi) is a dependency for installation followed by creating the new PHP folder on the C drive and extracting all PHP files into the new folder to ensure osTicket is properly installed. 
 
 </p>
 <br />
@@ -74,7 +74,7 @@ From the start menu, open control panel and click on "uninstall or change a prog
 
 </p>
 <p>
-MySQL is an open-source relational database management system (RDBMS). It's used to store, retrieve, and manage data in structured formats using SQL (Structured Query Language).  
+MySQL is an open-source, relational database management system (RDBMS). MySQL is used to store, retrieve, and manage data in structured formats using SQL (Structured Query Language).  
 </p>
 <br />
 
@@ -85,7 +85,7 @@ MySQL is an open-source relational database management system (RDBMS). It's used
 
 </p>
 <p>
-Registering PHP Manager from within IIS is required for making the web server aware of the existence of PHP on the computer
+Registering PHP Manager from within IIS is required for making the web server aware of the existence of PHP on the computer. Be sure to restart Internet Information Services after PHP Manager has been registered. 
 </p>
 <br />
 
@@ -109,7 +109,7 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket." This ensur
 </p>
 <p>
 
-Note that not all extensions are enabled. For osTicket to work properly, we must enable the following extensions... php_imap.dll, php_intl.dll, and php_opcache.dll. This can be done through PHP Manager from within Internet Information Services (IIS)
+Note that not all extensions are enabled. For osTicket to work properly, we must check some boxes to enable the following extensions... "php_imap.dll", "php_intl.dll", and "php_opcache.dll". This can be done through PHP Manager from within Internet Information Services (IIS)
   
 
 </p>
@@ -124,7 +124,7 @@ Note that not all extensions are enabled. For osTicket to work properly, we must
 </p>
 <p>
 
-HeidiSQL is an application that is required for allowing us to make a connection to the database and perform configurations.  
+HeidiSQL is an application that is required for allowing us to make a connection to the database and perform configurations. HeidiSQL is one of the dependencies for osTicket.   
 
 </p>
 <br />
@@ -136,7 +136,7 @@ HeidiSQL is an application that is required for allowing us to make a connection
 </p>
 <p>
 
-Start a new session from within HeidiSQL in order to establish a connection to the database and rename it osTicket. Right click the icon next to Unnamed and select create new, then click database. Name the database osTicket. 
+Start a new session from within HeidiSQL in order to establish a connection to the database and rename it osTicket. Right click the blue fin icon next to "Unnamed" and select create new, then click database. Name the database osTicket.  
   
 </p>
 <br />
